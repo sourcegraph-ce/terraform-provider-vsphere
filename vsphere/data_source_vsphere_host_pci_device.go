@@ -4,7 +4,7 @@
 package vsphere
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 	"strconv"
 

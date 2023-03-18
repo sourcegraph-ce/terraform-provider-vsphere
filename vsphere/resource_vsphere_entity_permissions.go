@@ -6,7 +6,7 @@ package vsphere
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"sort"
 	"strconv"

@@ -6,7 +6,7 @@ package resourcepool
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-provider-vsphere/vsphere/internal/helper/computeresource"
 	"github.com/hashicorp/terraform-provider-vsphere/vsphere/internal/helper/provider"
