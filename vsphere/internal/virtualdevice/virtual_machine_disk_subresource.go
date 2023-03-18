@@ -6,7 +6,7 @@ package virtualdevice
 import (
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math"
 	"path"
 	"reflect"

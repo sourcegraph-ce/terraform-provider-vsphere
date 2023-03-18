@@ -6,7 +6,7 @@ package computeresource
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/hashicorp/terraform-provider-vsphere/vsphere/internal/helper/hostsystem"

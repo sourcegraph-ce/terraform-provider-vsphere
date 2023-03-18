@@ -6,7 +6,7 @@ package datastore
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"path"
 
 	"github.com/hashicorp/terraform-provider-vsphere/vsphere/internal/helper/folder"
